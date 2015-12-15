@@ -23,6 +23,15 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<url-pattern>/checkwelcome</url-pattern>
 	</servlet-mapping>
 	
+	 <servlet>
+		<servlet-name>addTrainingServlet</servlet-name>
+		<servlet-class>aubourg.andree.AddTrainingServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>addTrainingServlet</servlet-name>
+		<url-pattern>/addTraining</url-pattern>
+	</servlet-mapping>
+	
     
 	<servlet>
 		<servlet-name>ProjGoogleAppEngSport</servlet-name>
